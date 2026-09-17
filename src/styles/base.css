@@ -1,15 +1,15 @@
 :root {
-  --bg:#fbf5fa; --surface:#fffafd; --surface-soft:#91bde5; --text:#91bde5;
-  --muted:#91bde5; --line:#91bde5; --accent:#91bde5; --accent-soft:#91bde5;
-  --article-reading-border:color-mix(in srgb,#cce1f3 84%,#fff);
+  --bg:#f4f9ff; --surface:#ffffff; --surface-soft:#e3f0fc; --text:#1a2733;
+  --muted:#5b6b7a; --line:#cfe0f0; --accent:#3a7bbf; --accent-soft:#dcebfa;
+  --article-reading-border:color-mix(in srgb,#9cc3e6 84%,#fff);
   --article-title-max-width:840px;
-  --blue:#1a4871; --shadow-color:rgba(80,51,95,.11); --shadow:0 18px 50px var(--shadow-color); --radius:18px;
+  --blue:#1a4871; --shadow-color:rgba(26,72,113,.10); --shadow:0 18px 50px var(--shadow-color); --radius:18px;
   --route-content-gap:34px;
   --hero-scrim:rgba(39,22,49,.18); --hero-scrim-mobile:rgba(39,22,49,.22); --inner-scrim:rgba(39,22,49,.18); --inner-scrim-mobile:rgba(39,22,49,.22);
   font-family: "Noto Sans SC", system-ui, sans-serif; color: var(--text); background: var(--bg);
   font-synthesis:none; color-scheme:light;
 }
-:root[data-theme="dark"] { --bg:#081522; --surface:#0c1f32; --surface-soft:#0c1f32; --text:#c1daf1; --muted:#a1c7e9; --line:#a1c7e9; --accent:#a1c7e9; --accent-soft:#a1c7e9; --blue:#e1edf8; --article-reading-border:color-mix(in srgb,#c7b9ec 78%,#fff); --shadow-color:rgba(8,2,12,.3); --hero-scrim:rgba(32,15,40,.4); --hero-scrim-mobile:rgba(32,15,40,.4); --inner-scrim:rgba(32,15,40,.4); --inner-scrim-mobile:rgba(32,15,40,.4); color-scheme:dark; }
+:root[data-theme="dark"] { --bg:#070d16; --surface:#0d1826; --surface-soft:#142438; --text:#f2f7fc; --muted:#a8bdd2; --line:#243b54; --accent:#8fc3f0; --accent-soft:#1a2f47; --blue:#dce9f7; --article-reading-border:color-mix(in srgb,#c7b9ec 78%,#fff); --shadow-color:rgba(8,2,12,.3); --hero-scrim:rgba(32,15,40,.4); --hero-scrim-mobile:rgba(32,15,40,.4); --inner-scrim:rgba(32,15,40,.4); --inner-scrim-mobile:rgba(32,15,40,.4); color-scheme:dark; }
 
 .app-error-boundary { min-height:100dvh; display:grid; place-items:center; padding:24px; }
 .app-error-boundary-panel { width:min(100%,560px); padding:36px; text-align:center; }
