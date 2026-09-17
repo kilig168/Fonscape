@@ -2,17 +2,17 @@ const defaultHeroImage = "/fonscape/hero-white.svg";
 
 const siteConfig = {
   language: "zh-CN",
-  title: "猫茶|Blog",
+  title: "猫茶|BLOG",
   description: "Peace&Love",
   siteUrl: "",
   postCategories: ["技术", "阅读", "生活", "创作", "观察", "学习","技能"],
-  showPoems: false,
-  showMusic: false,
+  showPoems: true,
+  showMusic: true,
   showCommunity: true,
   home: {
-    eyebrow: "PERSONAL BLOG",
+    eyebrow: "猫茶|BLOG",
     title: "我的博客",
-    description: "网站简介",
+    description: "Peace&Love",
   },
   author: {
     name: "博客作者",
