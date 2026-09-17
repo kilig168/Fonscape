@@ -12,7 +12,7 @@
   margin:4px auto 18px;
   border-radius:3px;
   background:#eafeff;
-  box-shadow:0 2px 10px rgba(58,27,78,.35);
+  box-shadow:0 2px 10px rgb(43,164,255);
 }
 .home-hero-mark { display:none; }
 .home-refresh-content {
@@ -176,7 +176,7 @@
   padding:0 8px;
   border:1px solid rgba(255,255,255,.34);
   border-radius:11px;
-  background:rgba(30,17,38,.54);
+  background:rgba(0,25,43,.54);
   color:#fff;
   box-shadow:0 4px 14px rgba(20,10,27,.22);
   cursor:pointer;
