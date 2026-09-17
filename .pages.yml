@@ -40,12 +40,6 @@ content:
         options:
           time: true
 
-      - name: slug
-        label: Slug（自定义地址）
-        type: string
-        default: 'src/content/posts'
-        description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
-
       - name: excerpt
         label: 摘要
         type: text
@@ -56,8 +50,8 @@ content:
       - name: tags
         label: 标签
         type: string
-        default: '["测试"]'
-        description: '必须写成 JSON 数组，例如：["测试", "文章"]。留空则不写该字段。'
+        default: ''
+        description: '必须写成JSON数组，例如：["文学", "随想"]。留空则不写该字段。'
 
       - name: series
         label: 系列名称
@@ -160,12 +154,6 @@ content:
         options:
           time: true
 
-      - name: slug
-        label: Slug（自定义地址）
-        type: string
-        default: 'src/content/poems'
-        description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
-
       - name: note
         label: 附注
         type: text
@@ -222,12 +210,6 @@ content:
             - songs
             - artists
             - albums
-
-      - name: slug
-        label: Slug（自定义地址）
-        type: string
-        default: 'src/content/music'
-        description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
 
       - name: excerpt
         label: 摘要
