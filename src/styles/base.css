@@ -1,5 +1,5 @@
 :root {
-  --bg:#f4f9ff; --surface:#ffffff; --surface-soft:#e3f0fc; --text:#1a2733;
+  --bg:#f4f9ff; --surface:#e7f2f4; --surface-soft:#e3f0fc; --text:#1a2733;
   --muted:#5b6b7a; --line:#96c7f7; --accent:#3a7bbf; --accent-soft:#dcebfa;
   --article-reading-border:color-mix(in srgb,#9cc3e6 84%,#fff);
   --article-title-max-width:840px;
