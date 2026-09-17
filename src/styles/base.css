@@ -9,7 +9,7 @@
   font-family: "Noto Sans SC", system-ui, sans-serif; color: var(--text); background: var(--bg);
   font-synthesis:none; color-scheme:light;
 }
-:root[data-theme="dark"] { --bg:#070d16; --surface:#0d1826; --surface-soft:#142438; --text:#f2f7fc; --muted:#a8bdd2; --line:#cde4fb; --accent:#8fc3f0; --accent-soft:#1a2f47; --blue:#dce9f7; --article-reading-border:color-mix(in srgb,#8fb8e0 72%,#fff); --shadow-color:rgba(0,0,0,.42);--hero-scrim:rgba(0,0,0,.55); --hero-scrim-mobile:rgba(0,0,0,.6);--inner-scrim:rgba(0,0,0,.55); --inner-scrim-mobile:rgba(0,0,0,.6); color-scheme:dark; }
+:root[data-theme="dark"] { --bg:#fdfdfd; --surface:#061c3a; --surface-soft:#256da6; --text:#ffffff; --muted:#ffffff; --line:#ffffff; --accent:#ffffff; --accent-soft:#225d98; --blue:#ffffff; --article-reading-border:color-mix(in srgb,#ffffff96 72%,#fff); --shadow-color:rgba(0,0,0,.42);--hero-scrim:rgba(0,0,0,.55); --hero-scrim-mobile:rgba(0,0,0,.6);--inner-scrim:rgba(0,0,0,.55); --inner-scrim-mobile:rgba(0,0,0,.6); color-scheme:dark; }
 
 .app-error-boundary { min-height:100dvh; display:grid; place-items:center; padding:24px; }
 .app-error-boundary-panel { width:min(100%,560px); padding:36px; text-align:center; }
