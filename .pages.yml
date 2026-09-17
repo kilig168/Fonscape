@@ -4,8 +4,6 @@
 media:
   input: public/assets
   output: /assets
-  rename: safe
-  categories: [image]
 
 content:
   # ==================== 文章 ====================
@@ -15,13 +13,6 @@ content:
     path: src/content/posts
     format: yaml-frontmatter
     filename: "posts-{year}-{month}{day}-{hour}{minute}.md"
-    view:
-      fields: [title, category, date, featured]
-      primary: title
-      sort: [date, title]
-      default:
-        sort: date
-        order: desc
     fields:
       - name: title
         label: 标题
@@ -65,17 +56,19 @@ content:
       - name: tags
         label: 标签
         type: string
-        list: true
+        default: ''
         description: "JSON 字符串数组，例如：阅读、技术"
 
       - name: series
         label: 系列名称
         type: string
+        default: ''
         description: "同系列文章会在详情页显示上一章/下一章"
 
       - name: seriesOrder
         label: 系列内顺序
         type: number
+        default: ''
         description: "建议填写互不重复的编号"
 
       - name: featured
