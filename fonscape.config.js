@@ -2,10 +2,10 @@ const defaultHeroImage = "/fonscape/hero-white.svg";
 
 const siteConfig = {
   language: "zh-CN",
-  title: "我的博客",
-  description: "网站简介",
+  title: "猫茶|Blog",
+  description: "Peace&Love",
   siteUrl: "",
-  postCategories: ["随笔", "评谈", "记录", "笔记", "指南"],
+  postCategories: ["技术", "阅读", "生活", "创作", "观察", "学习","技能"],
   showPoems: false,
   showMusic: false,
   showCommunity: true,
