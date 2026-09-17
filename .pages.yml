@@ -56,8 +56,8 @@ content:
       - name: tags
         label: 标签
         type: string
-        default: ''
-        description: "JSON 字符串数组，例如：阅读、技术"
+        default: '["测试"]'
+        description: '必须写成 JSON 数组，例如：["测试", "文章"]。留空则不写该字段。'
 
       - name: series
         label: 系列名称
