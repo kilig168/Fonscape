@@ -50,8 +50,8 @@ content:
       - name: tags
         label: 标签
         type: string
-        default: '"文章"'
-        description: '必须写成JSON数组，例如：tags: "文学", "随想"。留空则不写该字段。'
+        default: ["文章"]
+        description: '必须写成JSON数组，例如：tags: ["文学", "随想"]。留空则不写该字段。'
 
       - name: series
         label: 系列名称
