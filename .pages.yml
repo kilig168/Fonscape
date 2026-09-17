@@ -52,8 +52,8 @@ content:
       - name: slug
         label: Slug（自定义地址）
         type: string
+        default: ''
         description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
-        pattern: "^[a-z0-9/_-]+$"
 
       - name: excerpt
         label: 摘要
@@ -90,9 +90,9 @@ content:
 
       - name: image
         label: 封面图片
-        type: image
-        options:
-          media: images
+        type: string
+        default: ''
+        description: "填写图床图片链接，例如：https://img.example.com/图片.jpg"
 
       - name: cardPosition
         label: 卡片图片焦点位置
@@ -117,9 +117,9 @@ content:
             type: string
           - name: cover
             label: 封面路径
-            type: image
-            options:
-              media: images
+            type: string
+            default: ''
+            description: "填写图床图片链接，例如：https://img.example.com/cover.jpg"
           - name: title
             label: 曲名
             type: string
@@ -169,8 +169,8 @@ content:
       - name: slug
         label: Slug（自定义地址）
         type: string
-        description: "默认取文件名，留空则不覆盖"
-        pattern: "^[a-z0-9/_-]+$"
+        default: ''
+        description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
 
       - name: note
         label: 附注
@@ -232,8 +232,8 @@ content:
       - name: slug
         label: Slug（自定义地址）
         type: string
-        description: "默认取文件名，留空则不覆盖"
-        pattern: "^[a-z0-9/_-]+$"
+        default: ''
+        description: "默认取文件名，留空则不覆盖。只能使用小写字母、数字、/、_、-"
 
       - name: excerpt
         label: 摘要
@@ -243,9 +243,9 @@ content:
 
       - name: image
         label: 封面图片
-        type: image
-        options:
-          media: images
+        type: string
+        default: ''
+        description: "填写图床图片链接，例如：https://img.example.com/cover.jpg"
 
       - name: url
         label: 外部地址
@@ -304,9 +304,9 @@ content:
 
           - name: avatar
             label: 头像
-            type: image
-            options:
-              media: images
+            type: string
+            default: ''
+            description: "填写图床图片链接，例如：https://img.example.com/cover.jpg"
 
           - name: userId
             label: 账户用户 ID
