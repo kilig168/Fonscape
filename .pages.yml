@@ -81,6 +81,10 @@ content:
         type: number
         description: "仅当置顶为 true 时使用，正整数，从小到大排序"
 
+      - name: body
+        label: 正文
+        type: rich-text
+
       - name: image
         label: 封面图片
         type: string
@@ -128,9 +132,6 @@ content:
           values:
             - inline
 
-      - name: body
-        label: 正文
-        type: rich-text
 
   # ==================== 小诗 ====================
   - name: poems
@@ -240,6 +241,10 @@ content:
         default: ''
         description: "填写图床图片链接，例如：https://img.example.com/cover.jpg"
 
+      - name: body
+        label: 正文
+        type: rich-text
+
       - name: url
         label: 外部地址
         type: string
@@ -260,9 +265,6 @@ content:
         type: string
         description: "默认使用 kind 字段"
 
-      - name: body
-        label: 正文
-        type: rich-text
 
   # ==================== 友链 ====================
   - name: friends
