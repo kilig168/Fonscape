@@ -1,7 +1,7 @@
 import configuredSite from "../fonscape.config.js";
 import { isSiteRouteEnabled as isConfiguredSiteRouteEnabled } from "./sectionAvailability.js";
 
-export const DEFAULT_POST_CATEGORIES = Object.freeze(["随笔", "评谈", "记录", "笔记", "指南"]);
+export const DEFAULT_POST_CATEGORIES = Object.freeze(["技术", "阅读", "生活", "创作", "观察", "学习", "技能"]);
 
 /**
  * @param {unknown} value
