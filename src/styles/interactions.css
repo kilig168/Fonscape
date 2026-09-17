@@ -144,7 +144,7 @@
 
 /* Article filter uses one reversible transition, never a restarted keyframe. */
 .article-filter-backdrop {
-  background:rgba(43,23,52,.48);
+  background:rgba(42,109,168,.48);
   -webkit-backdrop-filter:none;
   backdrop-filter:none;
   will-change:opacity;
